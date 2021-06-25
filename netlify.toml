@@ -1,8 +1,8 @@
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
   for = "/welcome.html"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+[[headers]]
   for = "/home.html"
     [headers.values]
     Access-Control-Allow-Origin = "*"
