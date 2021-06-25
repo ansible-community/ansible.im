@@ -3,3 +3,6 @@
   for = "/welcome.html"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+  for = "/home.html"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
