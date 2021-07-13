@@ -203,25 +203,25 @@ we don't have an account and should hide them. No account == no guest account ei
         </a>
     </div>
     
-  <div class="foo">
-          
-    <h1>Welcome to the Ansible Community Matrix instance</h1>
-      
-    <h2>If you have an <em>ansible.im</em> account, you can sign in here.</h2>
-      
-    <p>If you would <b>like</b> an account, please contact the community team. Sadly, we cannot allow
-       open registration yet, please see <a href='https://ansible.github.io/community/posts/matrix_and_ansible.html'>this post</a>
-       for details. All Ansible rooms are accessible via federation, no one is required to have an <em>ansible.im</em> account
-       to participate.</p>
-
-    <p> All participants are expected to respect and uphold Ansible's code of conduct. For
+    <h1 class="mx_Header_title">Welcome to the Ansible Community</h1>
+    <p class="mx_Header_subtitle mx_ModularContainer">Sign in directly if you have an account here.</p>
+    <p class="mx_Header_subtitle mx_ModularContainer">Open registrations are not yet available, but all Ansible community rooms are available
+        to other Matrix instances through federation.</p>
+    <p class="mx_Header_subtitle mx_ModularContainer">All participants are expected to respect and uphold Ansible's code of conduct. For
         more details, please read <a href="https://docs.ansible.com/ansible/latest/community/code_of_conduct.html">Ansible's
-    Code of Conduct</a>.</p>
-      
-    <b>Homeserver:</b>      https://chat.ansible.im <br/>
-    <b>Identity server:</b> https://vector.im       <br/>
+        Code of Conduct</a>.</p>
 
-    <br />
+    <table class="mx_ModularServerTable">
+        <tbody><tr> 
+            <th>Homeserver:</th>
+            <td>https://chat.ansible.im</td>
+        </tr>
+        <tr>
+            <th>Identity server:</th>
+            <td>https://vector.im</td>
+        </tr>
+    </tbody></table>
+    
     <div class="mx_ButtonGroup">
         <div class="mx_ButtonRow">
             <a href="#/login" class="mx_ButtonParent mx_ButtonSignIn mx_Button_iconSignIn">
@@ -230,7 +230,6 @@ we don't have an account and should hide them. No account == no guest account ei
         </div>
     </div>
     
-    <a href="/#/login">Login</a>
   </div>
 </body>
 </html>
