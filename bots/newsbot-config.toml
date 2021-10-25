@@ -1,0 +1,83 @@
+bot_user_id = '@newsbot:ansible.im'
+reporting_room_id = '!eOGJpxusLzvHfIcHrb:ansible.im'
+admin_room_id = '!ksnKLXrvVRKHhYGMFg:ansible.im'
+notice_emoji = '⭕'   # :o:
+image_emoji = '📷️'    # :camera:
+video_emoji = '📹️'    # :video_camera:
+image_markdown = '> ![](/post/bullhorn/{{file}})'
+video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
+update_config_command = "sh /data/update_config.sh"
+editors = [
+    '@gwmngilfen:ansible.im',
+    '@dmsimard:matrix.org',
+    '@cybette:ansible.im',
+]
+
+[[sections]]
+emoji = '⏱️' # :stopwatch:
+name = 'dates'
+title = 'Key Dates'
+order = 100
+usual_reporters = []
+
+[[sections]]
+emoji = '🔈️' # :speaker:
+name = 'general'
+title = 'General News Updates'
+order = 101
+usual_reporters = []
+
+[[sections]]
+emoji = '🏆️' # :trophy:
+name = 'releases'
+title = 'Major New Releases'
+order = 102
+usual_reporters = []
+
+[[sections]]
+emoji = '🪄' # :magic_wand:
+name = 'collections'
+title = 'Collection Updates'
+order = 103
+usual_reporters = []
+
+[[sections]]
+emoji = '👂️' # :ear:
+name = 'community'
+title = 'Community Updates'
+order = 104
+usual_reporters = []
+
+[[sections]]
+emoji = '💰️' # :moneybag:
+name = 'hiring'
+title = 'The Ansible Team Is Hiring'
+order = 105
+usual_reporters = []
+
+[[projects]]
+emoji = '🪜' # :ladder:
+name = 'maintainers'
+title = 'Maintainers'
+description = 'Maintainers help to run the community!'
+website = 'https://github.com/ansible-community'
+default_section = 'community'
+usual_reporters = []
+
+[[projects]]
+emoji = '⚡️' # :zap:
+name = 'core'
+title = 'Ansible-Core'
+description = '**Ansible Core** is minimal package containing the base engine, modules, and plugins'
+website = 'https://github.com/ansible/ansible'
+default_section = 'releases'
+usual_reporters = []
+
+[[projects]]
+emoji = '📦️' # :package:
+name = 'ansible'
+title = 'Ansible'
+description = '**Ansible** is the full-fat package containing Ansible Core & the Community Collections'
+website = 'https://github.com/ansible-collections'
+default_section = 'releases'
+usual_reporters = []
