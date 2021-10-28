@@ -10,7 +10,7 @@ The NewsBot resides in the [Ansible Social](https://matrix.to/#/#social:ansible.
 
 You can submit your news! It will be included in the next edition of the Bullhorn.
 
-To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and mention the bot (@newsbot:ansible.im) at the#
+To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and mention the bot (@newsbot:ansible.im) at the
 start. *Or* alternatively, write your post and then add a :o: (`:o:`) reaction to it.
 
 You can also add some information about which section and/or project the news relates to. Add reactions to your message from the list below:
