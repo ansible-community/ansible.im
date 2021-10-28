@@ -8,9 +8,10 @@ image_markdown = '> ![](/post/bullhorn/{{file}})'
 video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
 update_config_command = "sh /data/update_config.sh"
 editors = [
+    '@cybette:ansible.im',
+    '@gundalow:ansible.im',
     '@gwmngilfen:ansible.im',
     '@dmsimard:matrix.org',
-    '@cybette:ansible.im',
 ]
 
 [[sections]]
