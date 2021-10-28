@@ -17,18 +17,18 @@ You can also add some information about which section and/or project the news re
 
 #### Sections
 
-⏱️: Key Dates
-🔈️: General News Updates
-🏆️: Major New Releases
-🪄: Collection Updates
-👂️: Community Updates
-💰️: The Ansible Team Is Hiring
+- ⏱️: Key Dates
+- 🔈️: General News Updates
+- 🏆️: Major New Releases
+- 🪄: Collection Updates
+- 👂️: Community Updates
+- 💰️: The Ansible Team Is Hiring
 
 #### Projects
 
-🪜: Maintainers - Maintainers help to run the community! (https://github.com/ansible-community)
-⚡️: Ansible-Core - **Ansible Core** is minimal package containing the base engine, modules, and plugins (https://github.com/ansible/ansible)
-📦️: Ansible - **Ansible** is the full-fat package containing Ansible Core & the Community Collections (https://github.com/ansible-collections)
+- 🪜: Maintainers - Maintainers help to run the community! (https://github.com/ansible-community)
+- ⚡️: Ansible-Core - **Ansible Core** is minimal package containing the base engine, modules, and plugins (https://github.com/ansible/ansible)
+- 📦️: Ansible - **Ansible** is the full-fat package containing Ansible Core & the Community Collections (https://github.com/ansible-collections)
 
 ### Use from IRC
 
