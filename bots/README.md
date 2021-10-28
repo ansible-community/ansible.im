@@ -1,6 +1,6 @@
 # Ansible Bot Config Storage
 
-Some bots can pull their config from an external source. Souch bots are configured here.
+Some bots can pull their config from an external source. Such bots are configured here.
 
 ## NewsBot
 
