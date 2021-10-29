@@ -4,7 +4,7 @@ Some bots can pull their config from an external source. Such bots are configure
 
 ## NewsBot
 
-The NewsBot resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile the Bullhorn.
+The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile the Bullhorn.
 
 ### Using the bot
 
