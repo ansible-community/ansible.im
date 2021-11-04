@@ -82,3 +82,12 @@ description = '**Ansible** is the full-fat package containing Ansible Core & the
 website = 'https://github.com/ansible-collections'
 default_section = 'releases'
 usual_reporters = []
+
+[[projects]]
+emoji = '⛏️' # :pick:
+name = 'devtools'
+title = 'DevTools'
+description = 'VScode extension, language server, linter, molecule, runner, navigator and potentially other development goodies'
+website = 'https://github.com/ansible/vscode-ansible'
+default_section = 'releases'
+usual_reporters = []
