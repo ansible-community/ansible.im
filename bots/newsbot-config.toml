@@ -91,3 +91,13 @@ description = 'VScode extension, language server, linter, molecule, runner, navi
 website = 'https://github.com/ansible/vscode-ansible'
 default_section = 'releases'
 usual_reporters = []
+
+
+[[projects]]
+emoji = '🐂' # :ox:
+name = 'antsibull'
+title = 'Antsibull'
+description = 'Tooling for building various things related to ansible'
+website = 'https://github.com/ansible-community/antsibull'
+default_section = 'releases'
+usual_reporters = []
