@@ -29,6 +29,8 @@ You can also add some information about which section and/or project the news re
 - 🪜: Maintainers - Maintainers help to run the community! (https://github.com/ansible-community)
 - ⚡️: Ansible-Core - **Ansible Core** is minimal package containing the base engine, modules, and plugins (https://github.com/ansible/ansible)
 - 📦️: Ansible - **Ansible** is the full-fat package containing Ansible Core & the Community Collections (https://github.com/ansible-collections)
+- ⛏️: DevTools - VScode extension, language server, linter, molecule, runner, navigator and potentially other development goodies (https://github.com/ansible/vscode-ansible)
+- 🐂: Antsibull - Tooling for building various things related to ansible (https://github.com/ansible-community/antsibull)
 
 ### Use from IRC
 
