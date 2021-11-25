@@ -12,6 +12,7 @@ editors = [
     '@gundalow:ansible.im',
     '@gwmngilfen:ansible.im',
     '@dmsimard:matrix.org',
+    '@cybette:matrix.org',
 ]
 
 [[sections]]
