@@ -44,24 +44,31 @@ order = 103
 usual_reporters = []
 
 [[sections]]
+emoji = '🙏' # :pray:
+name = 'help'
+title = 'HELP WANTED'
+order = 104
+usual_reporters = []
+
+[[sections]]
 emoji = '👂️' # :ear:
 name = 'community'
 title = 'COMMUNITY UPDATES'
-order = 104
+order = 105
 usual_reporters = []
 
 [[sections]]
 emoji = '📅' # :date:
 name = 'events'
 title = 'COMMUNITY EVENTS/MEETUPS'
-order = 105
+order = 106
 usual_reporters = []
 
 [[sections]]
 emoji = '💰️' # :moneybag:
 name = 'hiring'
 title = 'THE ANSIBLE TEAM IS HIRING'
-order = 106
+order = 107
 usual_reporters = []
 
 [[projects]]
@@ -99,7 +106,6 @@ description = 'VScode extension, language server, linter, molecule, runner, navi
 website = 'https://github.com/ansible/vscode-ansible'
 default_section = 'releases'
 usual_reporters = []
-
 
 [[projects]]
 emoji = '🐂' # :ox:
