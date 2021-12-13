@@ -13,6 +13,7 @@ editors = [
     '@gwmngilfen:ansible.im',
     '@dmsimard:matrix.org',
     '@cybette:matrix.org',
+    '@smccann:matrix.org'
 ]
 
 [[sections]]
