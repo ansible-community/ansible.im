@@ -13,7 +13,7 @@ You can submit your news! It will be included in the next edition of the Bullhor
 To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and mention the bot (@newsbot:ansible.im) at the
 start. *Or* alternatively, write your post and then add a :o: (`:o:`) reaction to it.
 
-You can also add some information about which section and/or project the news relates to. Add reactions to your message from the list below:
+After you do one of the above, you can also add some information about which section and/or project the news relates to. Add reactions to your message from the list below:
 
 #### Sections
 
@@ -21,6 +21,7 @@ You can also add some information about which section and/or project the news re
 - 🔈️: General News Updates
 - 🏆️: Major New Releases
 - 🪄: Collection Updates
+- 🙏: Help Wanted
 - 👂️: Community Updates
 - 💰️: The Ansible Team Is Hiring
 
