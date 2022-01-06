@@ -52,24 +52,31 @@ order = 104
 usual_reporters = []
 
 [[sections]]
+emoji = '🗳️' # :ballot_box:
+name = 'proposals'
+title = 'PROPOSALS - DISCUSS AND VOTE!'
+order = 105
+usual_reporters = []
+
+[[sections]]
 emoji = '👂️' # :ear:
 name = 'community'
 title = 'COMMUNITY UPDATES'
-order = 105
+order = 106
 usual_reporters = []
 
 [[sections]]
 emoji = '📅' # :date:
 name = 'events'
 title = 'COMMUNITY EVENTS/MEETUPS'
-order = 106
+order = 107
 usual_reporters = []
 
 [[sections]]
 emoji = '💰️' # :moneybag:
 name = 'hiring'
 title = 'THE ANSIBLE TEAM IS HIRING'
-order = 107
+order = 108
 usual_reporters = []
 
 [[projects]]
