@@ -22,6 +22,7 @@ After you do one of the above, you can also add some information about which sec
 - 🏆️: Major New Releases
 - 🪄: Collection Updates
 - 🙏: Help Wanted
+- 🗳️: Proposals - Discuss and Vote!
 - 👂️: Community Updates
 - 💰️: The Ansible Team Is Hiring
 
