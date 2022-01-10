@@ -72,7 +72,7 @@ usual_reporters = []
 emoji = '📅' # :date:
 name = 'events'
 title = 'COMMUNITY EVENTS AND MEETUPS'
-order = 105
+order = 107
 usual_reporters = []
 
 [[sections]]
