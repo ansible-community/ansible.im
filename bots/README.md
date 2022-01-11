@@ -4,16 +4,18 @@ Some bots can pull their config from an external source. Such bots are configure
 
 ## NewsBot
 
-The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile the Bullhorn.
+The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile [The Bullhorn](https://github.com/ansible/community/wiki/News).
 
 ### Using the bot
 
 You can submit your news! It will be included in the next edition of the Bullhorn.
 
-To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and mention the bot (@newsbot:ansible.im) at the
+To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and mention the bot (`@newsbot:ansible.im`) at the
 start. *Or* alternatively, write your post and then add a :o: (`:o:`) reaction to it.
 
-After you do one of the above, you can also add some information about which section and/or project the news relates to. Add reactions to your message from the list below:
+Posts should be in Markdown and include lots of information (what, why, when) as well as links to relevant changelogs, repos, etc.
+
+You can also add some information about which section and/or project the news relates to. Add reactions to your message from the list below:
 
 #### Sections
 
