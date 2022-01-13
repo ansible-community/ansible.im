@@ -27,7 +27,7 @@ You can also add some information about which section and/or project the news re
 - 🗳️: Proposals - Discuss and Vote! `:ballot_box:`
 - 📅: Community events & Meetups `:date:`
 - 👂️: Community Updates `:ear:`
-- 💰️: Ansible is hiring `moneybag:`
+- 💰️: Ansible is hiring `:moneybag:`
 
 #### Projects
 
@@ -36,7 +36,6 @@ You can also add some information about which section and/or project the news re
 - 📦️: ansible `:package:`
 - ⛏️: devtools `:pick:`
 - 🐂: Antsibull tooling `:ox:`
-- 💰️: The Ansible Team Is Hiring
 
 ### Use from IRC
 
