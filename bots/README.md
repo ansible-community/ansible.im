@@ -19,13 +19,20 @@ You can also add some information about which section and/or project the news re
 
 #### Sections
 
-- ⏱️: Key Dates
-- 🔈️: General News Updates
-- 🏆️: Major New Releases
-- 🪄: Collection Updates
-- 🙏: Help Wanted
-- 🗳️: Proposals - Discuss and Vote!
-- 👂️: Community Updates
+- ⏱️: Key Dates `:stopwatch:`
+- 🔈️: General News Updates `:speaker:`
+- 🏆️: Major New Releases `:trophy:`
+- 🪄: Collection Updates `:magic_wand:`
+- 🙏: Help Wanted `:pray:`
+- 🗳️: Proposals - Discuss and Vote! `:ballot_box:`
+- 📅: Community events & Meetups `:date:`
+- 👂️: Community Updates `:ear:`
+- 💰️: Ansible is hiring `moneybag:`
+- 🪜: Maintainers `:ladder:`
+- ⚡️: ansible-core `:zap:`
+- 📦️: ansible `:package:`
+- ⛏️: devtools `:pick:`
+- 🐂: Antsibull tooling `:ox:`
 - 💰️: The Ansible Team Is Hiring
 
 #### Projects
