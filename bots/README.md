@@ -19,22 +19,23 @@ You can also add some information about which section and/or project the news re
 
 #### Sections
 
-- ⏱️: Key Dates
-- 🔈️: General News Updates
-- 🏆️: Major New Releases
-- 🪄: Collection Updates
-- 🙏: Help Wanted
-- 🗳️: Proposals - Discuss and Vote!
-- 👂️: Community Updates
-- 💰️: The Ansible Team Is Hiring
+- ⏱️: Key Dates `:stopwatch:`
+- 🔈️: General News Updates `:speaker:`
+- 🏆️: Major New Releases `:trophy:`
+- 🪄: Collection Updates `:magic_wand:`
+- 🙏: Help Wanted `:pray:`
+- 🗳️: Proposals - Discuss and Vote! `:ballot_box:`
+- 📅: Community events & Meetups `:date:`
+- 👂️: Community Updates `:ear:`
+- 💰️: Ansible is hiring `:moneybag:`
 
 #### Projects
 
-- 🪜: Maintainers - Maintainers help to run the community! (https://github.com/ansible-community)
-- ⚡️: Ansible-Core - **Ansible Core** is minimal package containing the base engine, modules, and plugins (https://github.com/ansible/ansible)
-- 📦️: Ansible - **Ansible** is the full-fat package containing Ansible Core & the Community Collections (https://github.com/ansible-collections)
-- ⛏️: DevTools - VScode extension, language server, linter, molecule, runner, navigator and potentially other development goodies (https://github.com/ansible/vscode-ansible)
-- 🐂: Antsibull - Tooling for building various things related to ansible (https://github.com/ansible-community/antsibull)
+- 🪜: Maintainers `:ladder:`
+- ⚡️: ansible-core `:zap:`
+- 📦️: ansible `:package:`
+- ⛏️: devtools `:pick:`
+- 🐂: Antsibull tooling `:ox:`
 
 ### Use from IRC
 
