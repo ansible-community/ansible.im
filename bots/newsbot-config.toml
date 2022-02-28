@@ -15,7 +15,6 @@ editors = [
     '@cybette:matrix.org',
     '@samccann:ansible.im',
     '@andersson007_:matrix.org',
-    '@deric.crago:ansible.im',
     '@ompragash:ansible.im'
 ]
 
