@@ -6,6 +6,9 @@ image_emoji = '📷️'    # :camera:
 video_emoji = '📹️'    # :video_camera:
 image_markdown = '> ![](/post/bullhorn/{{file}})'
 video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
+verbs = ["reports", "says", "announces"]
+ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review!"
+min_length = 20
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@cybette:ansible.im',
