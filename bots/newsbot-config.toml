@@ -8,6 +8,7 @@ image_markdown = '> ![](/post/bullhorn/{{file}})'
 video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
 verbs = ["reports", "says", "announces"]
 ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review!"
+ack_emoji = ''
 min_length = 20
 update_config_command = "sh /data/update_config.sh"
 editors = [
