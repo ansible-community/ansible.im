@@ -1,6 +1,6 @@
 bot_user_id = '@newsbot:ansible.im'
 reporting_room_id = '!pMZboYFCScZJfXmOtH:ansible.im'
-admin_room_id = '!ksnKLXrvVRKHhYGMFg:ansible.im'
+admin_room_id = '!vErCYeanUGgAiJskEy:ansible.im'
 notice_emoji = '⭕'   # :o:
 image_emoji = '📷️'    # :camera:
 video_emoji = '📹️'    # :video_camera:
