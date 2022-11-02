@@ -2,24 +2,21 @@ bot_user_id = '@newsbot:ansible.im'
 reporting_room_id = '!pMZboYFCScZJfXmOtH:ansible.im'
 admin_room_id = '!vErCYeanUGgAiJskEy:ansible.im'
 notice_emoji = '⭕'   # :o:
-image_emoji = '📷️'    # :camera:
-video_emoji = '📹️'    # :video_camera:
+restrict_notice = true
 image_markdown = '> ![](/post/bullhorn/{{file}})'
 video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
 verbs = ["shared", "said", "contributed"]
 ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review!"
 ack_emoji = ''
-min_length = 20
+min_length = 5
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@cybette:ansible.im',
     '@gundalow:ansible.im',
     '@gwmngilfen:ansible.im',
-    '@dmsimard:matrix.org',
     '@cybette:matrix.org',
     '@samccann:ansible.im',
-    '@andersson007_:matrix.org',
-    '@ompragash:ansible.im'
+    '@andersson007_:matrix.org'
 ]
 
 [[sections]]
