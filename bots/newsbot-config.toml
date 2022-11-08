@@ -43,7 +43,7 @@ usual_reporters = []
 [[sections]]
 emoji = '🛠️' # :hammer_and_wrench:
 name = 'projects'
-title = 'Project Updates'
+title = 'PROJECT UPDATES'
 order = 103
 usual_reporters = []
 
