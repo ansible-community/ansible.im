@@ -83,6 +83,18 @@ order = 108
 usual_reporters = []
 
 [[projects]]
+emoji = 'AWX'
+name = 'AWX'
+title = 'AWX Project'
+description = 'AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.'
+website = 'https://github.com/ansible/awx'
+default_section = 'general'
+usual_reporters = 
+  '@gundalow:ansible.im',
+  '@therealhaoliu:matrix.org'
+]
+
+[[projects]]
 emoji = '🪜' # :ladder:
 name = 'maintainers'
 title = 'Maintainers'
