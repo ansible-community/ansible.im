@@ -41,45 +41,52 @@ order = 102
 usual_reporters = []
 
 [[sections]]
+emoji = '🛠️' # :hammer_and_wrench:
+name = 'projects'
+title = 'Project Updates'
+order = 103
+usual_reporters = []
+
+[[sections]]
 emoji = '🪄' # :magic_wand:
 name = 'collections'
 title = 'COLLECTION UPDATES'
-order = 103
+order = 104
 usual_reporters = []
 
 [[sections]]
 emoji = '🙏' # :pray:
 name = 'help'
 title = 'HELP WANTED'
-order = 104
+order = 105
 usual_reporters = []
 
 [[sections]]
 emoji = '🗳️' # :ballot_box:
 name = 'proposals'
 title = 'PROPOSALS - DISCUSS AND VOTE!'
-order = 105
+order = 106
 usual_reporters = []
 
 [[sections]]
 emoji = '👂️' # :ear:
 name = 'community'
 title = 'COMMUNITY UPDATES'
-order = 106
+order = 107
 usual_reporters = []
 
 [[sections]]
 emoji = '📅' # :date:
 name = 'events'
 title = 'COMMUNITY EVENTS AND MEETUPS'
-order = 107
+order = 108
 usual_reporters = []
 
 [[sections]]
 emoji = '💰️' # :moneybag:
 name = 'hiring'
 title = 'THE ANSIBLE TEAM IS HIRING'
-order = 108
+order = 109
 usual_reporters = []
 
 [[projects]]
@@ -89,7 +96,7 @@ title = 'AWX Project'
 description = 'AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.'
 website = 'https://github.com/ansible/awx'
 default_section = 'general'
-usual_reporters = 
+usual_reporters = [
   '@gundalow:ansible.im',
   '@therealhaoliu:matrix.org'
 ]
