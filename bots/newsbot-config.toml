@@ -16,7 +16,9 @@ editors = [
     '@gwmngilfen:ansible.im',
     '@cybette:matrix.org',
     '@samccann:ansible.im',
-    '@andersson007_:matrix.org'
+    '@andersson007_:matrix.org',
+    '@anwesha:ansible.im',
+    '@orandon:ansible.im'
 ]
 
 [[sections]]
@@ -90,15 +92,16 @@ order = 109
 usual_reporters = []
 
 [[projects]]
-emoji = 'AWX'
+emoji = '🖥️' # :desktop_computer:
 name = 'AWX'
 title = 'AWX Project'
 description = 'AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.'
 website = 'https://github.com/ansible/awx'
-default_section = 'general'
+default_section = 'projects'
 usual_reporters = [
   '@gundalow:ansible.im',
-  '@therealhaoliu:matrix.org'
+  '@therealhaoliu:matrix.org',
+  '@relrod:matrix.org'
 ]
 
 [[projects]]
@@ -134,7 +137,7 @@ name = 'devtools'
 title = 'DevTools'
 description = "Projects to make it easier to write and test Ansible Content. Includes [VScode extension](https://github.com/ansible/vscode-ansible), [language server](https://github.com/ansible/ansible-language-server), [ansible-lint](https://github.com/ansible-community/ansible-lint), [molecule](https://github.com/ansible-community/molecule), [ansible-navigator](https://github.com/ansible/ansible-navigator) and potentially other development goodies. To see what's planned, and how you can help checkout the [foundation-devtools project board](https://github.com/orgs/ansible/projects/86/views/4)"
 website = 'https://github.com/ansible/vscode-ansible'
-default_section = 'releases'
+default_section = 'projects'
 usual_reporters = []
 
 [[projects]]
