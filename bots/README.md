@@ -22,6 +22,7 @@ You can also add some information about which section and/or project the news re
 - ⏱️: Key Dates `:stopwatch:`
 - 🔈️: General News Updates `:speaker:`
 - 🏆️: Major New Releases `:trophy:`
+- 🛠️: Project Updates `:hammer_and_wrench:`
 - 🪄: Collection Updates `:magic_wand:`
 - 🙏: Help Wanted `:pray:`
 - 🗳️: Proposals - Discuss and Vote! `:ballot_box:`
@@ -36,6 +37,7 @@ You can also add some information about which section and/or project the news re
 - 📦️: ansible `:package:`
 - ⛏️: devtools `:pick:`
 - 🐂: Antsibull tooling `:ox:`
+- AWX: AWX Project
 
 ### Use from IRC
 
