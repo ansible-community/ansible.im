@@ -92,14 +92,19 @@ order = 109
 usual_reporters = []
 
 [[projects]]
-emoji = '🖥️' # :desktop_computer:
+emoji = 'AWX'
 name = 'AWX'
 title = 'AWX Project'
-description = 'AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.'
+description = 'AWX provides a web-based user interface, REST API, and task engine built on top of Ansible. Join the AWX discussion in the [Ansible Community Forum](https://forum.ansible.com/tag/awx).'
 website = 'https://github.com/ansible/awx'
 default_section = 'projects'
 usual_reporters = [
+  '@alancoding:ansible.im',
   '@gundalow:ansible.im',
+  '@john-westcott-iv:ansible.im',
+  '@lyasin:matrix.org',
+  '@sfoster:matrix.org',
+  '@thedoubl3j:ansible.im',
   '@therealhaoliu:matrix.org',
   '@relrod:matrix.org'
 ]
