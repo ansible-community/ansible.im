@@ -130,7 +130,7 @@ usual_reporters = []
 [[projects]]
 emoji = '📦️' # :package:
 name = 'ansible'
-title = 'Ansible'
+title = 'Ansible Community Package'
 description = "The `Ansible` package includes `ansible-core` and is a batteries-included package that provides a curated set of Ansible collections. See the [Ansible roadmaps](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html) for future release plans."
 website = 'https://github.com/ansible-collections'
 default_section = 'releases'
