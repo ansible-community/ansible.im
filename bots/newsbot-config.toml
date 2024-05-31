@@ -18,7 +18,8 @@ editors = [
     '@samccann:ansible.im',
     '@andersson007_:matrix.org',
     '@anwesha:ansible.im',
-    '@orandon:ansible.im'
+    '@orandon:ansible.im',
+    '@leo:ansible.im'
 ]
 
 [[sections]]
