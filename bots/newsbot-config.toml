@@ -141,8 +141,8 @@ usual_reporters = []
 emoji = '⛏️' # :pick:
 name = 'devtools'
 title = 'DevTools'
-description = "Projects to make it easier to write and test Ansible Content. Includes [VScode extension](https://github.com/ansible/vscode-ansible), [language server](https://github.com/ansible/ansible-language-server), [ansible-lint](https://github.com/ansible-community/ansible-lint), [molecule](https://github.com/ansible-community/molecule), [ansible-navigator](https://github.com/ansible/ansible-navigator) and potentially other development goodies. To see what's planned, and how you can help checkout the [foundation-devtools project board](https://github.com/orgs/ansible/projects/86/views/4)"
-website = 'https://github.com/ansible/vscode-ansible'
+description = "Projects to make it easier to write and test Ansible Content. The [ansible-dev-tools](https://github.com/ansible/ansible-dev-tools) metapackage, which includes [VScode extension](https://github.com/ansible/vscode-ansible), [ansible-creator](https://github.com/ansible/ansible-creator), [ansible-lint](https://github.com/ansible-community/ansible-lint), [molecule](https://github.com/ansible-community/molecule), [ansible-navigator](https://github.com/ansible/ansible-navigator), [ansible-dev-environment)(https://github.com/ansible/ansible-dev-environment) and more! To see what's planned, and how you can help checkout the [foundation-devtools project board](https://github.com/orgs/ansible/projects/86/views/4)"
+website = 'https://github.com/ansible/ansible-dev-tools'
 default_section = 'projects'
 usual_reporters = []
 
