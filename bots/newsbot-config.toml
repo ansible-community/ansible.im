@@ -101,7 +101,6 @@ website = 'https://github.com/ansible/awx'
 default_section = 'projects'
 usual_reporters = [
   '@alancoding:ansible.im',
-  '@gundalow:ansible.im',
   '@john-westcott-iv:ansible.im',
   '@lyasin:matrix.org',
   '@sfoster:matrix.org',
