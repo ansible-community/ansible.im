@@ -25,70 +25,70 @@ editors = [
 [[sections]]
 emoji = '⏱️' # :stopwatch:
 name = 'dates'
-title = 'KEY DATES'
+title = 'Key dates'
 order = 100
 usual_reporters = []
 
 [[sections]]
 emoji = '🔈️' # :speaker:
 name = 'general'
-title = 'GENERAL NEWS UPDATES'
+title = 'General news updates'
 order = 101
 usual_reporters = []
 
 [[sections]]
 emoji = '🏆️' # :trophy:
 name = 'releases'
-title = 'MAJOR NEW RELEASES'
+title = 'Major new releases'
 order = 102
 usual_reporters = []
 
 [[sections]]
 emoji = '🛠️' # :hammer_and_wrench:
 name = 'projects'
-title = 'PROJECT UPDATES'
+title = 'Project updates'
 order = 103
 usual_reporters = []
 
 [[sections]]
 emoji = '🪄' # :magic_wand:
 name = 'collections'
-title = 'COLLECTION UPDATES'
+title = 'Collection updates'
 order = 104
 usual_reporters = []
 
 [[sections]]
 emoji = '🙏' # :pray:
 name = 'help'
-title = 'HELP WANTED'
+title = 'Help wanted'
 order = 105
 usual_reporters = []
 
 [[sections]]
 emoji = '🗳️' # :ballot_box:
 name = 'proposals'
-title = 'PROPOSALS - DISCUSS AND VOTE!'
+title = 'Proposals - discuss and vote!'
 order = 106
 usual_reporters = []
 
 [[sections]]
 emoji = '👂️' # :ear:
 name = 'community'
-title = 'COMMUNITY UPDATES'
+title = 'Community updates'
 order = 107
 usual_reporters = []
 
 [[sections]]
 emoji = '📅' # :date:
 name = 'events'
-title = 'COMMUNITY EVENTS AND MEETUPS'
+title = 'Community events and meetups'
 order = 108
 usual_reporters = []
 
 [[sections]]
 emoji = '💰️' # :moneybag:
 name = 'hiring'
-title = 'THE ANSIBLE TEAM IS HIRING'
+title = 'The Ansible team is hiring!'
 order = 109
 usual_reporters = []
 
