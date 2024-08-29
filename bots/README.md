@@ -39,9 +39,4 @@ You can also add some information about which section and/or project the news re
 - 🐂: Antsibull tooling `:ox:`
 - AWX: AWX Project
 
-### Use from IRC
-
-You can still tag the bot by name (newsbot[m]) and that will work. Clearly reactions don't work in IRC, so if you need reactions applying, editors
-(listed [here](https://github.com/ansible-community/ansible.im/blob/main/bots/newsbot-config.toml#L10) can do it too, just ask in the channel
-and we'll help!
 
