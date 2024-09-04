@@ -4,7 +4,7 @@ Some bots can pull their config from an external source. Such bots are configure
 
 ## NewsBot
 
-The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile [The Bullhorn](https://github.com/ansible/community/wiki/News).
+The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile [The Bullhorn](https://forum.ansible.com/c/news/bullhorn/17). See [How to edit and release the Bullhorn](https://forum.ansible.com/t/how-to-edit-and-release-the-ansible-bullhorn/6543) for details on using newsbot to generate the Bullhorn.
 
 ### Using the bot
 
@@ -38,5 +38,17 @@ You can also add some information about which section and/or project the news re
 - ⛏️: devtools `:pick:`
 - 🐂: Antsibull tooling `:ox:`
 - AWX: AWX Project
+
+### Updating newsbot
+If you've made changes here for @newsbot, you need to tell the bot to reload the config from GitHub.
+
+In the [@newstbot Admin room](https://matrix.to/#/!vErCYeanUGgAiJskEy:ansible.im?via=ansible.im):
+
+`!update-config`
+
+You can verify your updates with `!render` as a test run.
+
+You can also use `!help` for a full list of commands available in the admin room.
+
 
 
