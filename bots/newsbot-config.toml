@@ -40,6 +40,7 @@ usual_reporters = []
 emoji = '🏆️' # :trophy:
 name = 'releases'
 title = 'Major new releases'
+description = "See Ansible Forum [releases](https://forum.ansible.com/c/news/releases/18) for more of this week's releases."
 order = 102
 usual_reporters = []
 
@@ -61,6 +62,7 @@ usual_reporters = []
 emoji = '🙏' # :pray:
 name = 'help'
 title = 'Help wanted'
+description = 'We are always looking for help fixing issues in [collections](https://github.com/search?q=user:ansible-collections+label:easyfix,"good+first+issue"+state:open&type=Issues) and [other projects](https://github.com/search?q=user:ansible+user:ansible-community+label:easyfix,"good+first+issue"+state:open&type=Issues)!'
 order = 105
 usual_reporters = []
 
@@ -82,6 +84,7 @@ usual_reporters = []
 emoji = '📅' # :date:
 name = 'events'
 title = 'Community events and meetups'
+description = "See the Ansible Forum [events calendar](https://forum.ansible.com/c/events/8) for upcoming events."
 order = 108
 usual_reporters = []
 
