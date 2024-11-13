@@ -40,6 +40,9 @@ You can also add some information about which section and/or project the news re
 - AWX: AWX Project
 
 ### Updating newsbot
+
+See the [newsbot documentation](https://github.com/haecker-felix/hebbot/?tab=readme-ov-file) for how to make changes.
+
 If you've made changes here for @newsbot, you need to tell the bot to reload the config from GitHub.
 
 In the [@newstbot Admin room](https://matrix.to/#/!vErCYeanUGgAiJskEy:ansible.im?via=ansible.im):
