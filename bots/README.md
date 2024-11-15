@@ -43,7 +43,7 @@ You can also add some information about which section and/or project the news re
 
 See the [newsbot documentation](https://github.com/haecker-felix/hebbot/?tab=readme-ov-file) for how to make changes. 
 * Changes to `newsbot-project.md` or `newsbot-section.md` will impact every section or project.
-* Add text you want to appear in every bullhorn to `newsbot-section.md`.
+* Add text you want to appear in every Bullhorn edition to `newsbot-section.md`.
 
 If you've made changes here for @newsbot, you need to tell the bot to reload the config from GitHub.
 
