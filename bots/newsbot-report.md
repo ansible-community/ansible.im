@@ -15,6 +15,10 @@ Welcome to [The Bullhorn](https://forum.ansible.com/c/news/bullhorn/17), our new
 
 {{sections}}
 
+## Other events and releases
+
+Use the Ansible Forum to see [other events](https://forum.ansible.com/c/events/8) and [releases](https://forum.ansible.com/c/news/releases/18).
+
 ## Join the Ansible community
 Looking for ways to get involved? See [how can I help](https://docs.ansible.com/ansible/devel/community/how_can_I_help.html#how-can-i-help) for some ideas! 
 
