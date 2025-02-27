@@ -21,7 +21,7 @@ editors = [
     '@orandon:ansible.im',
     '@leo:ansible.im',
     '@epacific1:ansible.im',
-    'traytorous:ansible.im'
+    '@traytorous:ansible.im'
 ]
 
 [[sections]]
