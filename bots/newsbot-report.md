@@ -8,6 +8,10 @@ categories: ["weekly-update"]
 draft: false
 ---
 
+![bullhorn-pool.png|600x200, 100%](upload://rmK8gYUKkT0B9pv3KxI2eUOi2wy.png)
+
+<div data-theme-toc="true"> </div>
+
 **This week in Ansible Community**
 *Issue #{{weeknumber}}, {{today}} ([Past Issues](https://forum.ansible.com/c/news/bullhorn/17))*
 
