@@ -20,7 +20,6 @@ editors = [
     '@anwesha:ansible.im',
     '@orandon:ansible.im',
     '@leo:ansible.im',
-    '@epacific1:ansible.im',
     '@traytorous:ansible.im'
 ]
 
@@ -107,8 +106,7 @@ usual_reporters = [
   '@lyasin:matrix.org',
   '@sfoster:matrix.org',
   '@thedoubl3j:ansible.im',
-  '@therealhaoliu:matrix.org',
-  '@relrod:matrix.org'
+  '@therealhaoliu:matrix.org'
 ]
 
 [[projects]]
@@ -124,7 +122,7 @@ usual_reporters = []
 emoji = '⚡️' # :zap:
 name = 'core'
 title = 'Ansible-Core'
-description = "The `ansible-core` package contains the base engine and a small subset of modules and plugins. To see what's planned for the next release, look at the [`ansible-core` roadmaps](https://docs.ansible.com/ansible-core/devel/roadmap/ansible_core_roadmap_index.html)."
+description = "The `ansible-core` package contains the base engine and a small subset of modules and plugins. To see what's planned for the next release, look at the [`ansible-core` roadmaps](https://docs.ansible.com/projects/ansible-core/devel/roadmap/ansible_core_roadmap_index.html)."
 website = 'https://github.com/ansible/ansible'
 default_section = 'releases'
 usual_reporters = []
@@ -133,7 +131,7 @@ usual_reporters = []
 emoji = '📦️' # :package:
 name = 'ansible'
 title = 'Ansible Community Package'
-description = "The `Ansible` package includes `ansible-core` and is a batteries-included package that provides a curated set of Ansible collections. See the [Ansible roadmaps](https://docs.ansible.com/ansible/devel/roadmap/ansible_roadmap_index.html) for future release plans."
+description = "The `Ansible` package includes `ansible-core` and is a batteries-included package that provides a curated set of Ansible collections. See the [Ansible roadmaps](https://docs.ansible.com/projects/ansible-core/devel/roadmap/ansible_core_roadmap_index.html) for future release plans."
 website = 'https://github.com/ansible-collections'
 default_section = 'releases'
 usual_reporters = []
