@@ -20,7 +20,8 @@ editors = [
     '@anwesha:ansible.im',
     '@orandon:ansible.im',
     '@leo:ansible.im',
-    '@traytorous:ansible.im'
+    '@traytorous:ansible.im',
+    '@dbrenuk:matrix.org'
 ]
 
 [[sections]]
