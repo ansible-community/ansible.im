@@ -10,12 +10,11 @@ The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible 
 
 You can submit your news! It will be included in the next edition of the Bullhorn.
 
-To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and mention the bot (`@newsbot:ansible.im`) at the
-start. *Or* alternatively, write your post and then add a :o: (`:o:`) reaction to it.
+To do so, simply write a message in [Ansible Social](https://matrix.to/#/#social:ansible.com) and [mention](https://spec.matrix.org/v1.15/client-server-api/#user-and-room-mentions) the bot (`@newsbot:ansible.im`) anywhere in the message. Alternatively, write your post and then add a :o: (`:o:`) reaction to it.
 
 Posts should be in Markdown and include lots of information (what, why, when) as well as links to relevant changelogs, repos, etc.
 
-You can also add some information about which section and/or project the news relates to. Add reactions to your message from the list below:
+If your message mentions a project name (e.g. "AWX", "ansible-core"), the bot will automatically tag it with the matching project emoji. You can also manually add section and/or project reactions to your message from the list below:
 
 #### Sections
 
@@ -41,19 +40,32 @@ You can also add some information about which section and/or project the news re
 
 ### Updating newsbot
 
-See the [newsbot documentation](https://github.com/haecker-felix/hebbot/?tab=readme-ov-file) for how to make changes. 
-* Changes to `newsbot-project.md` or `newsbot-section.md` will impact every section or project.
-* Add text you want to appear in every Bullhorn edition to `newsbot-section.md`.
+The bot uses two configuration files, both stored in this directory:
 
-If you've made changes here for @newsbot, you need to tell the bot to reload the config from GitHub.
+* `newsbot-config.toml` — bot settings, sections, and projects.
+* `newsbot-template.md` — a [minijinja](https://docs.rs/minijinja/latest/minijinja/) template that controls the rendered report layout. See the upstream [example template](https://github.com/haecker-felix/hebbot/blob/main/doc/example_config/template.md) for available variables, filters, and macros.
 
-In the [@newstbot Admin room](https://matrix.to/#/!vErCYeanUGgAiJskEy:ansible.im?via=ansible.im):
+For general hebbot documentation see the [upstream docs](https://github.com/haecker-felix/hebbot/tree/main/doc).
+
+After making changes here, tell the bot to reload the config from GitHub. In the [@newsbot Admin room](https://matrix.to/#/!vErCYeanUGgAiJskEy:ansible.im?via=ansible.im):
 
 `!update-config`
 
 You can verify your updates with `!render` as a test run.
 
-You can also use `!help` for a full list of commands available in the admin room.
+#### Admin room commands
 
-
+| Command         | Description                                                               |
+| --------------- | ------------------------------------------------------------------------- |
+| !about          | Shows bot version details                                                 |
+| !clear          | Clears all stored news                                                    |
+| !details "term" | Shows section/project details (term can be emoji or name)                 |
+| !list-config    | Lists current bot configuration                                           |
+| !list-projects  | Lists configured projects                                                 |
+| !list-sections  | Lists configured sections                                                 |
+| !render         | Creates a markdown file with the stored news                              |
+| !restart        | Restarts the bot, useful when you edited the configuration                |
+| !say "message"  | Sends a message in reporting room                                         |
+| !status         | Shows saved messages                                                      |
+| !update-config  | Updates the bot configuration by executing `update_config_command` command |
 

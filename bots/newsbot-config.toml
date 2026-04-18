@@ -2,12 +2,10 @@ bot_user_id = '@newsbot:ansible.im'
 reporting_room_id = '!pMZboYFCScZJfXmOtH:ansible.im'
 admin_room_id = '!vErCYeanUGgAiJskEy:ansible.im'
 notice_emoji = '⭕'   # :o:
+# Only editors can approve messages with the notice emoji (required for public rooms)
 restrict_notice = true
-image_markdown = '> ![](/post/bullhorn/{{file}})'
-video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
 verbs = ["shared", "said", "contributed"]
-ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review!"
-ack_emoji = ''
+ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review! Feel free to edit your message if needed, the changes will be picked up automatically."
 min_length = 5
 update_config_command = "sh /data/update_config.sh"
 editors = [
@@ -101,14 +99,6 @@ title = 'AWX Project'
 description = 'AWX provides a web-based user interface, REST API, and task engine built on top of Ansible. Join the AWX discussion in the [Ansible Community Forum](https://forum.ansible.com/tag/awx).'
 website = 'https://github.com/ansible/awx'
 default_section = 'projects'
-usual_reporters = [
-  '@alancoding:ansible.im',
-  '@john-westcott-iv:ansible.im',
-  '@lyasin:matrix.org',
-  '@sfoster:matrix.org',
-  '@thedoubl3j:ansible.im',
-  '@therealhaoliu:matrix.org'
-]
 
 [[projects]]
 emoji = '🪜' # :ladder:
@@ -117,7 +107,6 @@ title = 'Maintainers'
 description = 'Maintainers help to run the community!'
 website = 'https://github.com/ansible-community'
 default_section = 'community'
-usual_reporters = []
 
 [[projects]]
 emoji = '⚡️' # :zap:
@@ -126,7 +115,6 @@ title = 'Ansible-Core'
 description = "The `ansible-core` package contains the base engine and a small subset of modules and plugins. To see what's planned for the next release, look at the [`ansible-core` roadmaps](https://docs.ansible.com/projects/ansible-core/devel/roadmap/ansible_core_roadmap_index.html)."
 website = 'https://github.com/ansible/ansible'
 default_section = 'releases'
-usual_reporters = []
 
 [[projects]]
 emoji = '📦️' # :package:
@@ -135,7 +123,6 @@ title = 'Ansible Community Package'
 description = "The `Ansible` package includes `ansible-core` and is a batteries-included package that provides a curated set of Ansible collections. See the [Ansible roadmaps](https://docs.ansible.com/projects/ansible-core/devel/roadmap/ansible_core_roadmap_index.html) for future release plans."
 website = 'https://github.com/ansible-collections'
 default_section = 'releases'
-usual_reporters = []
 
 [[projects]]
 emoji = '⛏️' # :pick:
@@ -144,7 +131,6 @@ title = 'DevTools'
 description = "Projects to make it easier to write and test Ansible Content. The [ansible-dev-tools](https://github.com/ansible/ansible-dev-tools) metapackage, which includes [VScode extension](https://github.com/ansible/vscode-ansible), [ansible-creator](https://github.com/ansible/ansible-creator), [ansible-lint](https://github.com/ansible-community/ansible-lint), [molecule](https://github.com/ansible-community/molecule), [ansible-navigator](https://github.com/ansible/ansible-navigator), [ansible-dev-environment)(https://github.com/ansible/ansible-dev-environment) and more! To see what's planned, and how you can help checkout the [foundation-devtools project board](https://github.com/orgs/ansible/projects/86/views/4)"
 website = 'https://github.com/ansible/ansible-dev-tools'
 default_section = 'projects'
-usual_reporters = []
 
 [[projects]]
 emoji = '🐂' # :ox:
@@ -153,4 +139,3 @@ title = 'Antsibull'
 description = "Tooling for building the `Ansible` package and collection documentation."
 website = 'https://github.com/ansible-community/antsibull'
 default_section = 'releases'
-usual_reporters = []
