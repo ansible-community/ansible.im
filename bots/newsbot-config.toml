@@ -5,7 +5,7 @@ notice_emoji = '⭕'   # :o:
 # Only editors can approve messages with the notice emoji (required for public rooms)
 restrict_notice = true
 verbs = ["shared", "said", "contributed"]
-ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review!"
+ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review! Feel free to edit your message if needed, the changes will be picked up automatically."
 min_length = 5
 update_config_command = "sh /data/update_config.sh"
 editors = [
