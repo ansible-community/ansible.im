@@ -11,17 +11,14 @@ ack_emoji = ''
 min_length = 5
 update_config_command = "sh /data/update_config.sh"
 editors = [
-    '@cybette:ansible.im',
     '@gundalow:ansible.im',
     '@gwmngilfen:ansible.im',
-    '@cybette:matrix.org',
-    '@samccann:ansible.im',
     '@andersson007_:matrix.org',
-    '@anwesha:ansible.im',
     '@orandon:ansible.im',
     '@leo:ansible.im',
     '@traytorous:ansible.im',
-    '@dbrenuk:matrix.org'
+    '@dbrenuk:matrix.org',
+    '@mchappell:matrix.org'
 ]
 
 [[sections]]
