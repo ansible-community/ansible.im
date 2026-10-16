@@ -6,6 +6,9 @@ wget -nv -O config.toml https://raw.githubusercontent.com/ansible-community/ansi
 echo "Updating report_template.md..."
 wget -nv -O report_template.md https://raw.githubusercontent.com/ansible-community/ansible.im/main/bots/newsbot-report.md
 
+echo "Updating template.md..."
+wget -nv -O template.md https://raw.githubusercontent.com/ansible-community/ansible.im/main/bots/template.md
+
 echo "Updating section_template.md..."
 wget -nv -O section_template.md https://raw.githubusercontent.com/ansible-community/ansible.im/main/bots/newsbot-section.md
 
