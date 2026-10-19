@@ -8,7 +8,7 @@ categories: ["weekly-update"]
 draft: false
 ---
 
-![bullhorn-pool.png|600x200, 100%](upload://rmK8gYUKkT0B9pv3KxI2eUOi2wy)
+![bullhorn-pool.png|600x200, 100%](upload://rmK8gYUKkT0B9pv3KxI2eUOi2wy.png)
 
 <div data-theme-toc="true"> </div>
 
