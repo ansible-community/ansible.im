@@ -3,12 +3,10 @@ reporting_room_id = '!pMZboYFCScZJfXmOtH:ansible.im'
 admin_room_id = '!vErCYeanUGgAiJskEy:ansible.im'
 notice_emoji = '⭕'   # :o:
 restrict_notice = true
-image_markdown = '> ![](/post/bullhorn/{{file}})'
-video_markdown = '> {{< video src="/post/bullhorn/{{file}}" >}}'
 verbs = ["shared", "said", "contributed"]
 ack_text = "✅ Hey {{user}}, thanks for your report! I'll store it safely for the next Bullhorn review!"
-ack_emoji = ''
-min_length = 5
+# Messages shorter than this many UTF-8 bytes are ignored unless an editor accepts them with the notice reaction.
+min_length = 30
 update_config_command = "sh /data/update_config.sh"
 editors = [
     '@gundalow:ansible.im',
@@ -54,7 +52,9 @@ emoji = '🪄' # :magic_wand:
 name = 'collections'
 title = 'Collection updates'
 order = 104
-usual_reporters = []
+usual_reporters = [
+    '@ssulliva:matrix.org'
+]
 
 [[sections]]
 emoji = '🙏' # :pray:
@@ -123,7 +123,9 @@ title = 'Ansible-Core'
 description = "The `ansible-core` package contains the base engine and a small subset of modules and plugins. To see what's planned for the next release, look at the [`ansible-core` roadmaps](https://docs.ansible.com/projects/ansible-core/devel/roadmap/ansible_core_roadmap_index.html)."
 website = 'https://github.com/ansible/ansible'
 default_section = 'releases'
-usual_reporters = []
+usual_reporters = [
+  '@ansible-announce:matrix.org'
+]
 
 [[projects]]
 emoji = '📦️' # :package:
