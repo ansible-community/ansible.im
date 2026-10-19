@@ -1,14 +1,14 @@
 ---
 title: "The Bullhorn - Issue #{{ timestamp | dateformat(format='[week_number]') }}"
 slug: "bullhorn-{{ timestamp | dateformat(format='[year]-[month]-[day]') }}"
-author: {{ editor }}
+author: {{ editor | tojson }}
 date: {{ timestamp | dateformat(format='[year]-[month]-[day]') }}
-tags: {{ projects }}
+tags: {{ projects | sort | tojson }}
 categories: ["weekly-update"]
 draft: false
 ---
 
-![bullhorn-pool.png|600x200, 100%](upload://rm8gK8YUKkT0B9pv3KxI2eUOi2wy.png)
+![bullhorn-pool.png|600x200, 100%](upload://rmK8gYUKkT0B9pv3KxI2eUOi2wy)
 
 <div data-theme-toc="true"> </div>
 
@@ -60,7 +60,7 @@ Use the Ansible Forum to see [other events](https://forum.ansible.com/c/events/8
 
 ## Join the Ansible community
 
-Looking for ways to get involved? See [how can I help](https://docs.ansible.com/ansible/devel/community/how_can_I_help.html#how-can-i-help) for some ideas!
+Looking for ways to get involved? See [how can I help](https://docs.ansible.com/ansible/devel/community/how_can_I_help.html#how-can-i-help) for some ideas! 
 
 You can find easy issues in [collections](https://github.com/search?q=user:ansible-collections+label:easyfix,"good+first+issue"+state:open&type=Issues) and [other projects](https://github.com/search?q=user:ansible+user:ansible-community+label:easyfix,"good+first+issue"+state:open&type=Issues) for code or documentation contributions.
 

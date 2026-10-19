@@ -1,3 +1,7 @@
+[build]
+  # Only trigger Netlify on changes to the html pages we serve
+  ignore = "git diff --quiet \"$CACHED_COMMIT_REF\" \"$COMMIT_REF\" -- welcome.html home.html"
+
 [[headers]]
   for = "/welcome.html"
     [headers.values]

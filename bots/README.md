@@ -6,7 +6,7 @@ Some bots can pull their config from an external source. Such bots are configure
 
 The [NewsBot](https://github.com/haecker-felix/hebbot/) resides in the [Ansible Social](https://matrix.to/#/#social:ansible.com) room, and is used to help compile [The Bullhorn](https://forum.ansible.com/c/news/bullhorn/17). See [How to edit and release the Bullhorn](https://forum.ansible.com/t/how-to-edit-and-release-the-ansible-bullhorn/6543) for details on using newsbot to generate the Bullhorn.
 
-### Using the bot
+### Submitting news
 
 You can submit your news! It will be included in the next edition of the Bullhorn.
 
@@ -19,41 +19,53 @@ You can also add some information about which section and/or project the news re
 
 #### Sections
 
-- ⏱️: Key Dates `:stopwatch:`
-- 🔈️: General News Updates `:speaker:`
-- 🏆️: Major New Releases `:trophy:`
-- 🛠️: Project Updates `:hammer_and_wrench:`
-- 🪄: Collection Updates `:magic_wand:`
-- 🙏: Help Wanted `:pray:`
-- 🗳️: Proposals - Discuss and Vote! `:ballot_box:`
-- 📅: Community events & Meetups `:date:`
-- 👂️: Community Updates `:ear:`
-- 💰️: Ansible is hiring `:moneybag:`
+- ⏱️: Key dates (`:stopwatch:`)
+- 🔈️: General news updates (`:speaker:`)
+- 🏆️: Major new releases (`:trophy:`)
+- 🛠️: Project updates (`:hammer_and_wrench:`)
+- 🪄: Collection updates (`:magic_wand:`)
+- 🙏: Help wanted (`:pray:`)
+- 🗳️: Proposals (`:ballot_box:`)
+- 📅: Community events and meetups (`:date:`)
+- 👂️: Community updates (`:ear:`)
+- 💰️: Ansible is hiring (`:moneybag:`)
 
 #### Projects
 
-- 🪜: Maintainers `:ladder:`
-- ⚡️: ansible-core `:zap:`
-- 📦️: ansible `:package:`
-- ⛏️: devtools `:pick:`
-- 🐂: Antsibull tooling `:ox:`
+- 🪜: Maintainers (`:ladder:`)
+- ⚡️: ansible-core (`:zap:`)
+- 📦️: Ansible Community Package (`:package:`)
+- ⛏️: DevTools (`:pick:`)
+- 🐂: Antsibull tooling (`:ox:`)
 - AWX: AWX Project
 
-### Updating newsbot
+The configured minimum is 30 UTF-8 bytes. An editor can accept a shorter item by adding the notice reaction.
 
-See the [newsbot documentation](https://github.com/haecker-felix/hebbot/?tab=readme-ov-file) for how to make changes. 
-* Edit `template.md` to update the complete Bullhorn report, including section and project formatting.
-* The template uses MiniJinja and is loaded from the bot working directory (or `TEMPLATE_PATH`).
+### Configuration and rendering
 
-If you've made changes here for @newsbot, you need to tell the bot to reload the config from GitHub.
+`newsbot-config.toml` is the source config downloaded by the bot. It defines the Matrix rooms, editors, notice behavior, minimum message length, section/project metadata, acknowledgement text, and report verbs. Image and video formatting belongs in `template.md`; it is not configured through TOML.
 
-In the [@newstbot Admin room](https://matrix.to/#/!vErCYeanUGgAiJskEy:ansible.im?via=ansible.im):
+`template.md` is the complete MiniJinja template for the rendered Bullhorn. It receives `timestamp`, `sections`, `projects`, `config`, and `editor`. The template emits sorted, JSON-quoted project tags and a JSON-quoted author so the generated YAML front matter remains stable and valid. Hebbot reads `template.md` from its working directory by default; set `TEMPLATE_PATH` to an absolute path if the template is stored elsewhere. Likewise, `CONFIG_PATH` can select the config file.
+
+By default, Hebbot loads `./config.toml` and `./template.md` relative to its service `WorkingDirectory`, and `update_config_command` runs `sh ./update_config.sh` from that same directory. Keep all three files there so updates take effect after the bot's built-in restart. The updater writes beside its own script by default. If your paths differ, set `CONFIG_PATH` and `TEMPLATE_PATH` to the deployed files, set `NEWSBOT_DATA_DIR` to the directory where the updater should install files, and set `update_config_command` to the script's path from the service working directory. The updater reads from the `main` branch by default; set `NEWSBOT_CONFIG_REF` in the service environment to a reviewed branch, tag, or commit to pin the source.
+
+
+In the News room
+
+```
+!status
+# Check all entries have a category
+!render
+# Once happy
+!clear
+```
+
+### Updating and checking changes
+
+After merging changes to this directory, tell the bot to reload them in the NewsBot admin room:
 
 `!update-config`
 
-You can verify your updates with `!render` as a test run.
-
-You can also use `!help` for a full list of commands available in the admin room.
-
+Then run `!render` to check the generated report. Check the admin room for render warnings and verify the generated front matter, section ordering, links, and media paths before publishing. Use `!help` for the current admin commands.
 
 
