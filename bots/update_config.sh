@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+SCRIPT_DIR=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)
 DATA_DIR=${NEWSBOT_DATA_DIR:-$SCRIPT_DIR}
 SOURCE_REF=${NEWSBOT_CONFIG_REF:-main}
 BASE_URL="https://raw.githubusercontent.com/ansible-community/ansible.im/${SOURCE_REF}/bots"
